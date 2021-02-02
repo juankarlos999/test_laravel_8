@@ -47,6 +47,7 @@
             </div>
         </div>
     </article>
+    @include('partials.footer')
 </div>
-@include('partials.footer')
+
 @stop   
