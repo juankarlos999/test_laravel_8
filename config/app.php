@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Todero Servicios Hogar'),
+    'name' => env('APP_NAME', 'Prueba-laravel'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://todero-servicios-hogar.herokuapp.com/'),
+    'url' => env('APP_URL', 'https://mi-prueba-laravel.herokuapp.com/'),
 
     'asset_url' => env('ASSET_URL', null),
 
