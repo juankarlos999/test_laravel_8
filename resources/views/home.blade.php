@@ -8,15 +8,6 @@
     @include('partials.navbar')
 <article>
 
-<header class="masthead text-center">
-    <div class="masthead-content">
-        <div class="container">
-            <h1 class="masthead-heading mb-0">Bienvenido</h1>
-            <h2 class="masthead-subheading mb-0">Estamos para ayudarte</h2>
-        </div>
-    </div> 
-</header>
-
 <div class="card mb-3">
     <br>
     <div class="row g-0">
