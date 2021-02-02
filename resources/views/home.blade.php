@@ -21,7 +21,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.jpg" alt="">
+                    <h3>Bienvenido a mi prueba en Laravel</h3>
                 </div>
             </div>
         </div>
@@ -29,18 +29,6 @@
     <!-- Preloader Start -->
     <header>
         <!-- Header Start -->
-       <div class="header-area header_area header-transparent">
-            <div class="main-header">
-               <div class="header-bottom  header-sticky">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <!-- Logo -->
-                            <div class="col-xl-2 col-lg-1 col-md-1">
-                                <div class="logo">
-                                  <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-8 col-lg-8 col-md-8">
                             <!-- Mobile Menu -->
                             <div class="col-12">
                                 <div class="mobile_menu d-block d-lg-none"></div>
@@ -64,7 +52,7 @@
                             <img src="assets/img/hero/hero_img.jpg" alt=""  data-animation="fadeInRight" data-transition-duration="5s">
                           </div>
                           <div class="hero__caption">
-                              <h1 data-animation="fadeInLeft" data-delay=".4s">Business Synergy via <br>Robust Strategies</h1>
+                              <h1 data-animation="fadeInLeft" data-delay=".4s">Nos ajustamos a su tipo de negocio <br>Impulsamos su estrategia</h1>
                               <p data-animation="fadeInLeft" data-delay=".6s">Aasrem dfgum dolor sivst amet, consectetur adipisicing elitvde, sed dvo eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad micnim veniam, quis nostrud exercita.</p>
                               <!-- Hero Btn -->
                               <a href="#" class="hero-btn"  data-animation="fadeInLeft" data-delay=".9s" >
@@ -87,11 +75,11 @@
                             <img src="assets/img/hero/hero_img2.jpg" alt=""  data-animation="fadeInRight" data-transition-duration="5s">
                           </div>
                           <div class="hero__caption">
-                              <h1 data-animation="fadeInLeft" data-delay=".4s">Business Synergy via <br>Robust Strategies</h1>
+                              <h1 data-animation="fadeInLeft" data-delay=".4s">Nos ajustamos a su tipo de negocio <br>Impulsamos su estrategia</h1>
                               <p data-animation="fadeInLeft" data-delay=".6s">Aasrem dfgum dolor sivst amet, consectetur adipisicing elitvde, sed dvo eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad micnim veniam, quis nostrud exercita.</p>
                               <!-- Hero Btn -->
                               <a href="#" class="hero-btn"  data-animation="fadeInLeft" data-delay=".9s" >
-                                  View project
+                                  Ver proyecto
                                   <!-- Arrow SVG icon -->
                                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                   viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -106,25 +94,6 @@
             </div>
         </div>
         <!-- slider Area End-->
-        <!-- Want To Work Start -->
-        <div class="wantToWork-area w-padding">
-            <div class="container">
-                <div class="row align-items-end">
-                    <div class="col-xl-5 col-lg-7 col-md-8">
-                        <div class="wantToWork-caption">
-                            <p>Once you’ve settled on a business</p>
-                            <h2>High Performance Services For Multiple Industries.</h2>
-                        </div>
-                    </div>
-                    <div class="col-xl-7 col-lg-5 col-md-4">
-                       <div class="wantToWork-btn f-right">
-                            <a href="#" class="btn btn-ans">view more</a>
-                       </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Want To Work End -->
         <!-- Our Services Start -->
         <div class="our-services  pt-50 pb-150">
             <div class="container">
@@ -135,7 +104,7 @@
                                 <span class="flaticon-experience"></span>
                             </div>
                             <div class="services-cap">
-                                <h5>Strategic Planning</h5>
+                                <h5>Planeacion estrategica</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                             </div>
                         </div>
@@ -146,7 +115,7 @@
                                 <span class="flaticon-pay"></span>
                             </div>
                             <div class="services-cap">
-                                <h5>Trades & stocks</h5>
+                                <h5>Operaciones y acciones</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                             </div>
                         </div>
@@ -157,7 +126,7 @@
                                 <span class="flaticon-good"></span>
                             </div>
                             <div class="services-cap">
-                                <h5>Audit & Assurance</h5>
+                                <h5>Aplicaciones seguras</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                             </div>
                         </div>
@@ -195,7 +164,7 @@
                                 <div class="single-footer-caption mb-30">
                                     <!-- logo -->
                                     <div class="footer-logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                        <h3>Este contenido es de Prueba</h3>
                                     </div>
                                 </div>
                             </div>
@@ -218,7 +187,7 @@
                                         <li><a href="#">Contactanos</a></li>
                                         <li><a href="#">Sobre Nosotros</a></li>
                                         <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#"> Terminos de Uso</a></li>
+                                        <li><a href="#">Terminos de Uso</a></li>
                                     </ul>
                                 </div>
                             </div>
