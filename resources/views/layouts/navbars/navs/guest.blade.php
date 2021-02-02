@@ -16,7 +16,6 @@
               <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ __('Registrese aqui') }}</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item" href="{{ route('register') }}"><i class="material-icons">person_add</i> {{ __('Usuario') }}</a>
-                  <a class="dropdown-item" href="{{ route('register-Technician.create') }}"><i class="material-icons">person_add</i> {{ __('Equipo Tecnico') }}</a>
               </div>
         </li>
       </ul>

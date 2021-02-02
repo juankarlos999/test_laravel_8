@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Todero es una comunidad de tecnicos locales que ofrecen servicios de reparación para el hogar. Agenda tu servicio hoy!">
+    <meta name="description" content="App prueba Laravel">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -58,7 +58,6 @@
                                         aria-expanded="false">{{ __('Registrese aqui') }}</a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                             <a class="dropdown-item" href="{{ route('register') }}"><i class="material-icons">person_add</i> {{ __('Usuario') }}</a>
-                                            <a class="dropdown-item" href="{{ route('register-Technician.create') }}"><i class="material-icons">person_add</i> {{ __('Equipo Tecnico') }}</a>
                                         </div>
                                 </li>
                             @endif
