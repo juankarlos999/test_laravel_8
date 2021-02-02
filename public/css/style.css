@@ -102,11 +102,6 @@ li{
     
 }
 
-.card-my-items{
-    display: flex;
-    align-self: center;
-    padding: 1.25rem;
-}
 .item_link{
     text-align: center;
     font-size: smaller;
@@ -120,7 +115,7 @@ footer {
     background: #2b495f;
     color: #fff;
     width: 100%;
-    display: flex;
+    display: block;
     position: absolute;
     justify-content: center;
     flex-grow: 0;
