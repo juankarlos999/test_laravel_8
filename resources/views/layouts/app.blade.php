@@ -53,7 +53,7 @@
                             
                             @if (Route::has('register'))
                                 <li class="nav-item dropdown">
-                                    <a class="dropdown-item" href="{{ route('register') }}"><i class="material-icons">person_add</i> {{ __('Registrese aqui') }}</a> 
+                                    <a class="dropdown-item" href="{{ route('register') }}">{{ __('Registrese aqui') }}</a> 
                                 </li>
                             @endif
                         @else

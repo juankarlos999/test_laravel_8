@@ -21,7 +21,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <h3>Bienvenido a mi prueba en Laravel</h3>
+                    <h3>Mi prueba en Laravel</h3>
                 </div>
             </div>
         </div>
@@ -114,7 +114,7 @@
                                 <span class="flaticon-pay"></span>
                             </div>
                             <div class="services-cap">
-                                <h5>Operaciones y acciones</h5>
+                                <h5>Aplicaciones seguras</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                             </div>
                         </div>
@@ -125,7 +125,7 @@
                                 <span class="flaticon-good"></span>
                             </div>
                             <div class="services-cap">
-                                <h5>Aplicaciones seguras</h5>
+                                <h5>Clientes satisfechos</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                             </div>
                         </div>
