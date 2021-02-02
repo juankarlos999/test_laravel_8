@@ -1,14 +1,12 @@
 .main-wrapper{
     display:flex;
     flex-direction: column;    
-    
     min-height: 100%;  
-    /*background: red;*/
 }
 
 header {    
     margin-bottom: 20px;
-    /*box-shadow: 0 1px 10px #636569;*/
+    box-shadow: 0 1px 10px #636569;
 }
 
 #login{
@@ -89,42 +87,12 @@ li{
     /*background:yellow*/
 }
 
-.servicios {
-    text-align: center;
-    -webkit-font-smoothing: subpixel-antialiased;
-    font-weight: 300;
-    font-size: 1rem;
-    line-height: 1.25;
-    margin-bottom: 30px;
-    /*background: yellowgreen;*/
-}
-
-.region {
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;    
-    display: flex; 
-    flex-direction: row;
-    margin:auto;
-    flex-wrap: wrap;
-    /*height: 550px;*/ 
-    align-items: center;
-    justify-content:center;
-    /*box-shadow: 0 3px 7px rgba(0,0,0,.4);*/
-    /*width: 60%;*/
-    /*padding: 5%;*/
-    background:powderblue;
-}
-
 .square {
     width: 60%;
     margin:auto;
     box-shadow: 0 3px 7px rgba(0,0,0,.4);
     text-align: center;
 }
-
-
-
-
 
 .item {
     margin: auto;
@@ -161,14 +129,6 @@ footer {
     margin-top: 50px;
     text-align: center;
 }
-.contacto{
-    /*background:grey;*/
-    display: inline-flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-right: 100px;
-    box-shadow: 0 3px 7px rgba(0,0,0,.4);
-}
 
 .siguenos{
     display: flex;
@@ -193,13 +153,7 @@ footer {
     margin-block-end: 3px;
     box-shadow: 0 3px 7px rgba(0,0,0,.4);
 }
-.carousel {
-    display: flex; 
-    flex-direction: row;
-    margin:auto;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:center;
-    background: powderblue;
-    /*justify-content: space-between;*/
+
+#collage-img{
+    margin-left: 1%;
 }
