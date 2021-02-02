@@ -21,7 +21,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <h3>Mi prueba en Laravel</h3>
+                    <h2>Mi prueba</h2>
                 </div>
             </div>
         </div>
@@ -180,7 +180,7 @@
                         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <h4>Atencion al cliente</h4>
+                                    <h4>Atencion clientes</h4>
                                     <ul>
                                         <li><a href="#">Contactanos</a></li>
                                         <li><a href="#">Sobre Nosotros</a></li>

@@ -52,7 +52,7 @@
                             @endif
                             
                             @if (Route::has('register'))
-                                <li class="nav-item dropdown">
+                                <li class="nav-item">
                                     <a class="dropdown-item" href="{{ route('register') }}">{{ __('Registrese aqui') }}</a> 
                                 </li>
                             @endif
