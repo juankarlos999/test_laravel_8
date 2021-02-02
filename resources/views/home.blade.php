@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Servicios para el Hogar')
+@section('title', 'Servicios en desarrollo de aplicaciones')
 @section('css')
 <link rel="stylesheet" href="/css/style.css">
 @stop
