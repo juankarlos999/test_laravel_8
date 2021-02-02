@@ -14,12 +14,7 @@
             <h1 class="masthead-heading mb-0">Bienvenido</h1>
             <h2 class="masthead-subheading mb-0">Estamos para ayudarte</h2>
         </div>
-    </div>
-    <div class="bg-circle-1 bg-circle"></div>
-    <div class="bg-circle-2 bg-circle"></div>
-    <div class="bg-circle-3 bg-circle"></div>
-    <div class="bg-circle-4 bg-circle"></div>
-    
+    </div> 
 </header>
 
 <div class="card mb-3">
@@ -30,18 +25,18 @@
             <div class="card-group">
                 <div>
                     <div class="card" style="max-width: 160px">
-                        <img class="card-img" src="/img/servicios/nevera.jpg" width="258" height="158" alt="Card image">
+                        <img class="card-img" src="/img/nosotros.jpg" width="258" height="158" alt="Card image">
                     </div>
                     <div class="card" style="max-width: 160px">
-                        <img class="card-img" src="/img/servicios/estufa.jpg" width="258" height="158" alt="Card image">
+                        <img class="card-img" src="/img/develop2.jpg" width="258" height="158" alt="Card image">
                     </div>
                 </div>
                 <div>     
                     <div class="card" style="max-width: 160px">
-                        <img class="card-img" src="/img/servicios/plomeria.jpg" width="258" height="158" alt="Card image">
+                        <img class="card-img" src="/img/develop3.jpg" width="258" height="158" alt="Card image">
                     </div>
                     <div class="card" style="max-width: 160px">
-                        <img class="card-img" src="/img/servicios/electricidad.jpg" width="258" height="158" alt="Card image">
+                        <img class="card-img" src="/img/develop1.png" width="258" height="158" alt="Card image">
                     </div>
                 </div>      
             </div>
