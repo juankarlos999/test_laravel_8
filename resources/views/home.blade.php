@@ -12,12 +12,15 @@
             <div class="row g-0">
                 <div class="col-md-4">
                     <div class="card-group">
+                    <div>
                         <div class="card" style="max-width: 160px">
                             <img class="card-img" src="/img/nosotros.jpg" width="258" height="158" alt="Card image">
                         </div>
                         <div class="card" style="max-width: 160px">
                             <img class="card-img" src="/img/develop2.jpg" width="258" height="158" alt="Card image">
-                        </div> 
+                        </div>
+                        </div>
+                        <div>
                         <div class="card" style="max-width: 160px">
                             <img class="card-img" src="/img/develop3.jpg" width="258" height="158" alt="Card image">
                         </div>
@@ -25,6 +28,7 @@
                             <img class="card-img" src="/img/develop1.png" width="258" height="158" alt="Card image">
                         </div>   
                     </div>
+                    </div> 
                 </div>   
                 <div class="col-md-7">
                     <br>
