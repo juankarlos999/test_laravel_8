@@ -1,4 +1,4 @@
-<header>
+<header class="masthead text-center">
     <div class="header-container">
     <div class="masthead-content">
         <div class="container">
