@@ -5,7 +5,7 @@
     </div>
     <div class="derechos">         
            <p> Busca nuestra aplicación en el navegador de tu dispositivo móvil o de computo.<br>         
-                        Todero servicios para el hogar - Derechos reservados<br>
+                        esto es una app de prueba - Derechos reservados<br>
                                         © 2021</p>
         </div>        
 </footer>

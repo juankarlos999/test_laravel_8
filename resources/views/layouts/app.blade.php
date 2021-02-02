@@ -21,7 +21,6 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <!-- Other resources -->
-    @yield('resources')
     @yield('css')
 </head>
 <body>

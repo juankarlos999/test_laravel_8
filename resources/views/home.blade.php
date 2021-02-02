@@ -23,6 +23,7 @@
 </header>
 
 <div class="card mb-3">
+    <br>
     <div class="row g-0">
         <div class="col-md-4">
             <div class="card-group">
@@ -48,14 +49,15 @@
         </div>
         </div>   
         <div class="col-md-7">
+            <br>
             <div class="card-body">
-                <h1 class="card-title">Servicios de reparación para el hogar a su alcance</h5>
+                <h1 cleass="card-title">Desarrollo de aplicaciones a su alcance</h5>
                 <p class="card-text" style="font-size:150%">
-                Nuestro equipo técnico oferece repración de enseres eléctricos (lavadora, estufa ,nevera ,calentador y microondas), enseres a gas (estufa, calentador), servicio de plomería y electricidad.
+                Nuestro equipo técnico oferece soluciones en tecnologia rapidas y efectivas.
                 </p>
                 <br>
                 <em class="card-text" style="font-size:150%">
-                *Servicios disponibles inicialmente para Bogotá
+                *Servicio disponible inicialmente para Bogotá
                 </em>
                 
             </div>
