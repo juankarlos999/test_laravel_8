@@ -106,6 +106,192 @@
             </div>
         </div>
         <!-- slider Area End-->
+        <!-- Want To Work Start -->
+        <div class="wantToWork-area w-padding">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-xl-5 col-lg-7 col-md-8">
+                        <div class="wantToWork-caption">
+                            <p>Once you’ve settled on a business</p>
+                            <h2>High Performance Services For Multiple Industries.</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-5 col-md-4">
+                       <div class="wantToWork-btn f-right">
+                            <a href="#" class="btn btn-ans">view more</a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Want To Work End -->
+        <!-- Our Services Start -->
+        <div class="our-services  pt-50 pb-150">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-services text-center mb-30">
+                            <div class="services-ion">
+                                <span class="flaticon-experience"></span>
+                            </div>
+                            <div class="services-cap">
+                                <h5>Strategic Planning</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-services text-center mb-30">
+                            <div class="services-ion">
+                                <span class="flaticon-pay"></span>
+                            </div>
+                            <div class="services-cap">
+                                <h5>Trades & stocks</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-services text-center mb-30">
+                            <div class="services-ion">
+                                <span class="flaticon-good"></span>
+                            </div>
+                            <div class="services-cap">
+                                <h5>Audit & Assurance</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Services End -->
+        <!-- Visit Our Tailor Start -->
+        <div class="visit-tailor-area fix">
+            <!--Right Contents  -->
+            <div class="tailor-offers"></div>
+            <!-- left Contents -->
+            <div class="tailor-details">
+                <span>All of our Skills In The Fild</span>
+                <h3>Differentiate Yourself And <br>Attractive Attention</h3>
+                <p>Tempor incididunt ut labore et cvhjfhore magna aliqua. Ut<br> enim ad minim veniam, quis.</p>
+                 <!-- skill Start -->
+                <div class="skill-ara">
+                    <div class="skill">
+                        <div class="single-skill">
+                            <div class="progress-count">
+                                <p>User Interface</p><span>75%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".5s" aria-valuenow="25" role="progressbar" style="width: 75%"  aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="single-skill">
+                            <div class="progress-count">
+                                <p>Digital Marketing</p><span>89%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".7s" role="progressbar" style="width: 89%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="single-skill">
+                            <div class="progress-count">
+                                <p>User Interface</p><span>95%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".6s" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- skill End -->
+            </div>
+
+        </div>
+        <!-- Visit Our Tailor End -->
+        <!-- Want To Work Start -->
+        <div class="wantToWork-area w-padding3">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-xl-5 col-lg-7 col-md-8">
+                        <div class="wantToWork-caption">
+                            <p>Works That We Done Recently</p>
+                            <h2>All startups need to make their business work</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-5 col-md-4">
+                        <div class="wantToWork-btn f-right">
+                            <a href="#" class="btn btn-ans">view more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Want To Work End -->
+        <!-- Project Gallery Start -->
+        <div class="project-gallery-area">
+            <div class="container-full p-0">
+                <div class="row no-gutters">
+                    <!-- Big img -->
+                    <div class="col-lg-5 col-md-4">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-thumb big-img" style="background-image: url(assets/img/gallery/project_list1.png);">
+                            </div>
+                            <!-- Popup img Link -->
+                            <div class="portfolio-content">
+                                <a href="assets/img/gallery/project_list1.png" class="img-pop-up">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Small Img -->
+                    <div class="col-lg-7 col-md-8">
+                        <div class="row no-gutters">
+                            <div class="col-lg-5 col-md-6 col-sm-6">
+                                <div class="portfolio-wrapper">
+                                    <div class="portfolio-thumb small-img"  style="background-image: url(assets/img/gallery/project_list2.png);">
+                                    </div>
+                                    <!-- Popup img Link -->
+                                    <div class="portfolio-content">
+                                        <a href="assets/img/gallery/project_list2.png" class="img-pop-up">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6 col-sm-6">
+                                <div class="portfolio-wrapper">
+                                    <div class="portfolio-thumb small-img" style="background-image: url(assets/img/gallery/project_list3.png);">
+                                    </div>
+                                    <!-- Popup img Link -->
+                                    <div class="portfolio-content">
+                                        <a href="assets/img/gallery/project_list3.png" class="img-pop-up">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-lg-7 col-md-6 col-sm-6">
+                                <div class="portfolio-wrapper">
+                                    <div class="portfolio-thumb small-img" style="background-image: url(assets/img/gallery/project_list4.png);"></div>
+                                    <!-- Popup img Link -->
+                                    <div class="portfolio-content">
+                                        <a href="assets/img/gallery/project_list4.png" class="img-pop-up">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-6 col-sm-6">
+                                <div class="portfolio-wrapper">
+                                    <div class="portfolio-thumb small-img" style="background-image: url(assets/img/gallery/project_list5.png);"></div>
+                                    <!-- Popup img Link -->
+                                    <div class="portfolio-content">
+                                        <a href="assets/img/gallery/project_list5.png" class="img-pop-up">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project Gallery End -->
         <!-- Testimonial Start -->
         <div class="testimonial-area testimonial-padding">
             <div class="container ">
@@ -208,65 +394,6 @@
         </div>
         <!--All startups End -->
         <!-- Want To Work Start -->
-        <div class="wantToWork-area w-padding3">
-            <div class="container">
-                <div class="row align-items-end">
-                    <div class="col-xl-5 col-lg-7 col-md-8">
-                        <div class="wantToWork-caption">
-                            <p>Once you’ve settled on a business</p>
-                            <h2>High Performance Services For Multiple Industries.</h2>
-                        </div>
-                    </div>
-                    <div class="col-xl-7 col-lg-5 col-md-4">
-                       <div class="wantToWork-btn f-right">
-                            <a href="#" class="btn btn-ans">view more</a>
-                       </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Want To Work End -->
-        <!-- David Droga start -->
-        <div class="david-droga-area  pb-160">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <!-- single-david -->
-                        <div class="single-david mb-30">
-                            <div class="david-img">
-                                <img src="assets/img/gallery/david.png" alt="">
-                            </div>
-                            <div class="david-captoin">
-                                <ul class="david-info">
-                                    <li>january 28, 2020 </li>
-                                    <li> No Comments</li>
-                                </ul>
-                                <h2><a href="single-blog.html">Addiction When Gambling Becomes Harness The Power.</a></h2>
-                                <span>Continue Reading</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <!-- single-david -->
-                        <div class="single-david mb-30">
-                            <div class="david-img">
-                                <img src="assets/img/gallery/david2.png" alt="">
-                            </div>
-                            <div class="david-captoin">
-                                <ul class="david-info">
-                                    <li>january 28, 2020</li>
-                                    <li>No Comments</li>
-                                </ul>
-                                <h2><a href="single-blog.html">Addiction When Gambling Becomes Harness The Power.</a></h2>
-                                <span>Continue Reading</span>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            </div>
-        </div>
-        <!-- David Droga End -->
-        <!-- Want To Work Start -->
         <div class="wantToWork-area wantToWork-area2 w-padding2">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
@@ -303,7 +430,7 @@
                         <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <h4>Services</h4>
+                                    <h4>Servicios</h4>
                                     <ul>
                                         <li><a href="#">Marketing</a></li>
                                     </ul>
@@ -313,7 +440,7 @@
                         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <h4>Customer Care</h4>
+                                    <h4>Atencion al cliente</h4>
                                     <ul>
                                         <li><a href="#">Contactanos</a></li>
                                         <li><a href="#">Sobre Nosotros</a></li>
@@ -326,7 +453,7 @@
                         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <h4><span>+564</span> 7885 3222</h4>
+                                    <h4><span>+057</span> 7777 2222</h4>
                                     <ul>
                                         <li><a href="#">juancpardo1212@gmail.com</a></li>
                                     </ul>
@@ -346,7 +473,7 @@
                     <div class="row">
                         <div class="col-xl-12 ">
                             <div class="footer-copy-right">
-                                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>App de prueba en Laravel 8</p>
+                                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> App de prueba en Laravel 8</p>
                             </div>
                         </div>
                     </div>
