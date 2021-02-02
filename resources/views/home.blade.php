@@ -41,7 +41,6 @@
         <!-- Header End -->
     </header>
     <main>
-
         <!-- slider Area Start-->
         <div class="slider-area  slider-height" data-background="assets/img/hero/h1_hero.jpg">
             <div class="slider-active">
@@ -151,7 +150,6 @@
             </div>
         </div>
         <!-- Want To Work End -->
-
     </main>
     <footer>
         <!-- Footer Start-->
