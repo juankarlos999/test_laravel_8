@@ -1,10 +1,10 @@
-@extends('layouts.main', ['class' => 'off-canvas-sidebar', 'activePage' => 'login','title' => __('Todero Servicios para el Hogar')])
+@extends('layouts.main', ['class' => 'off-canvas-sidebar', 'activePage' => 'login','title' => __('Prueba Laravel')])
 @section('title', 'Login')
 @section('content')
 <div class="container" style="height: auto;">
   <div class="row align-items-center">
     <div class="col-md-9 ml-auto mr-auto mb-3 text-center">
-      <h3>{{ __('Todero es una comunidad de tecnicos locales que ofrecen servicios de reparación para el hogar. Agenda tu servicio hoy!') }} </h3>
+      <h3>{{ __('Esta app implementa un menu de usuario y funciones CRUD') }} </h3>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-8 ml-auto mr-auto">
       <form class="form" method="POST" action="{{ route('login') }}">
@@ -15,7 +15,7 @@
             <h4 class="card-title"><strong>{{ __('Login') }}</strong></h4>
           </div>
           <div class="card-body">
-            <p class="card-description text-center">{{ __('Ingrese su cuenta de correo electronico por ejemplo: ') }} <strong>user@todero.com</strong> {{ __(' y su password ') }}<strong>secreto</strong> </p>
+            <p class="card-description text-center">{{ __('Ingrese su cuenta de correo electronico por ejemplo: ') }} <strong>user@laravel.com</strong> {{ __(' y su password ') }}<strong>secreto</strong> </p>
             <div class="bmd-form-group{{ $errors->has('email') ? ' has-danger' : '' }}">
               <div class="input-group">
                 <div class="input-group-prepend">
