@@ -6,7 +6,6 @@
 
 header {    
     margin-bottom: 20px;
-    box-shadow: 0 1px 10px #636569;
 }
 
 #login{
@@ -121,7 +120,8 @@ footer {
     background: #2b495f;
     color: #fff;
     width: 100%;
-    display: block;
+    display: flex;
+    position: absolute;
     justify-content: center;
     flex-grow: 0;
     flex-shrink: 0;
