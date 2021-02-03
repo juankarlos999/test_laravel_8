@@ -10,6 +10,7 @@
                 url: $(this).attr("action"),
                 data:$(this).serialize(),
                 beforeSend: function(){
+                    console.log("estoy dentro la funcion ajax!!!");
                     /*
                     * Esta función se ejecuta durante el envió de la petición al
                     * servidor.
