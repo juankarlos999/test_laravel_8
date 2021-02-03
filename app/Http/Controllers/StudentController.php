@@ -79,7 +79,7 @@ class StudentController extends Controller
         $data_student->email = $request->email;
         $data_student->phoneNumber = $request->phoneNumber;
         $data_student->address = $request->address;
-        $data_student->addcity_residenceress = $request->city_residence;
+        $data_student->city_residence = $request->city_residence;
         $data_student->hometown = $request->hometown;
         $data_student->nationality = $request->nationality;
 
