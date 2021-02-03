@@ -1,4 +1,4 @@
-    /** Esta función se ejecuta durante el envió de la petición al* servidor.* */
+    /** Esta función se ejecuta durante la actualizacion del perfil.* */
 
     $(document).ready(function () {
     $("#form").bind("submit",function(){
@@ -14,14 +14,14 @@
                     * servidor.
                     * */
                     // btnEnviar.text("Enviando"); Para button 
-                    btnEnviar.val("Enviando"); // Para input de tipo button
+                    btnEnviar.val("Enviando..."); // Para input de tipo button
                     btnEnviar.attr("disabled","disabled");
                 },
                 complete:function(data){
                     /*
                     * Se ejecuta al termino de la petición
                     * */
-                    btnEnviar.val("Enviar formulario");
+                    btnEnviar.val("Actualizar formulario");
                     btnEnviar.removeAttr("disabled");
                 },
                 success: function(data){
@@ -29,7 +29,7 @@
                     * Se ejecuta cuando termina la petición y esta ha sido
                     * correcta
                     * */
-                    $(".respuesta").html(data);
+                   alert("Perfil actualizado");
                 },
                 error: function(data){
                     /*
