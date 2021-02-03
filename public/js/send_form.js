@@ -1,4 +1,5 @@
-
+// Get location form
+var locationForm = document.getElementById('form');
 // Listen for submit
 locationForm.addEventListener('submit', handle_form);
 
