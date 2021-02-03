@@ -55,7 +55,7 @@
                               <p data-animation="fadeInLeft" data-delay=".6s">Aasrem dfgum dolor sivst amet, consectetur adipisicing elitvde, sed dvo eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad micnim veniam, quis nostrud exercita.</p>
                               <!-- Hero Btn -->
                               <a href="#" class="hero-btn"  data-animation="fadeInLeft" data-delay=".9s" >
-                                  Ver el proyecto
+                                  Ver proyecto
                                   <!-- Arrow SVG icon -->
                                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                   viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
