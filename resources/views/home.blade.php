@@ -162,7 +162,7 @@
                                 <div class="single-footer-caption mb-30">
                                     <!-- logo -->
                                     <div class="footer-logo">
-                                        <h3>Este contenido es de Prueba</h3>
+                                        <h3>Este Pagina es de Prueba</h3>
                                     </div>
                                 </div>
                             </div>
