@@ -72,7 +72,7 @@ class StudentController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, User $data_student)
+    public function update(Request $request)
     {
         $data_student = User::where('id', $request->id)->first();
         
