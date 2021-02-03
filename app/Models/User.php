@@ -20,10 +20,11 @@ class User extends Authenticatable
         'typeUser',
         'name',
         'email',
-        'phoneNumber1',
-        'phoneNumber2',
+        'phoneNumber',
         'address',
-        'neighborhood',
+        'city_residence',
+        'hometown',
+        'nationality',
         'password',
     ];
 
