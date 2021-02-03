@@ -5,7 +5,9 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/themify-icons.css">
     <link rel="stylesheet" href="assets/css/slick.css">
@@ -13,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 @stop
 @section('content')
+
 <!-- Preloader Start -->
 <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
@@ -24,7 +27,6 @@
             </div>
         </div>
     </div>
-    <!-- Preloader Start -->
     <main>
         <!-- slider Area Start-->
         <div class="slider-area  slider-height" data-background="assets/img/hero/h1_hero.jpg">
