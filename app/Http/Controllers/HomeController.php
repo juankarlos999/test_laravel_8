@@ -26,18 +26,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $foreign_id_technician= Technician_profiles::find(Auth::user()->id);
 
         if(Auth::user()->typeUser=='Estudiante'){
             return redirect()->route('home');
-        }
-        elseif(is_null($foreign_id_technician)){
-
-            return redirect()->route('register-Technician.create');
-         }
-        elseif(Auth::user()->id==$foreign_id_technician->technician_id){
-
-           return redirect()->route('home-Technician');
         }
     }
 }
