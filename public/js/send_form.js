@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $("#form").bind("submit",function(){
+        console.log("estoy usando ajax heee!!!");
         // Capturamnos el boton de envío
         var btnEnviar = $("#btnSend");
         $.ajax({
