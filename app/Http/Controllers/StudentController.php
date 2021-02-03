@@ -61,7 +61,7 @@ class StudentController extends Controller
         $data_student = Auth::user();
 
         if(Auth::user()->typeUser=='Estudiante'){
-        return view('students.edit', compact('data_student'));
+            return view('students.edit', compact('data_student'));
         }
     }
 
@@ -74,7 +74,7 @@ class StudentController extends Controller
      */
     public function update(Request $request, User $data_student)
     {
-        $data_student->name = $request->name;
+        
         $data_student->last_name = $request->last_name;
         $data_student->email = $request->email;
         $data_student->phoneNumber = $request->phoneNumber;
