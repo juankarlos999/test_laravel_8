@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Registro Nuevo Usuario') }}</div>
+                <div class="card-header"><h3>Registro Nuevo Usuario</h3></div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -14,8 +14,8 @@
                             <label for="typeUser" class="col-md-4 col-form-label text-md-right">{{ __('Rol') }}</label>
                             <div class="col-md-6">
                                 <select id="typeUser" class="form-control" name="typeUser" autofocus required>
-                                    <option value="Usuario" name="Rol" >Estudiante</option>
-                                    <option value="Administrador" name="Rol" >Administrador</option>
+                                    <option value="Usuario">Estudiante</option>
+                                    <option value="Administrador">Administrador</option>
                                 </select>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                                 </div> 
                             </div>
                             <hr>
-                            <h3>Datos del programa</h3>
+                            <h4>Datos del programa</h4>
                             <div class="form-group row">
                                 <label for="program_name" class="col-md-4 col-form-label text-md-right">Nombre del programa</label>
                                 <div class="col-md-6">

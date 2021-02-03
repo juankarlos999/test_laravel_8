@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Servicios en desarrollo de aplicaciones')
+@section('title', 'Programas educativos')
 @section('css')
 	<!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -51,7 +51,7 @@
                             <img src="assets/img/hero/hero_img.jpg" alt=""  data-animation="fadeInRight" data-transition-duration="5s">
                           </div>
                           <div class="hero__caption">
-                              <h1 data-animation="fadeInLeft" data-delay=".4s">Nos ajustamos a su tipo de negocio <br>Impulsamos su estrategia</h1>
+                              <h1 data-animation="fadeInLeft" data-delay=".4s">Nos ajustamos a su tipo tiempo <br>Estudie desde cualquier lugar</h1>
                               <p data-animation="fadeInLeft" data-delay=".6s">Aasrem dfgum dolor sivst amet, consectetur adipisicing elitvde, sed dvo eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad micnim veniam, quis nostrud exercita.</p>
                               <!-- Hero Btn -->
                               <a href="#" class="hero-btn"  data-animation="fadeInLeft" data-delay=".9s" >
@@ -74,7 +74,7 @@
                             <img src="assets/img/hero/hero_img2.jpg" alt=""  data-animation="fadeInRight" data-transition-duration="5s">
                           </div>
                           <div class="hero__caption">
-                              <h1 data-animation="fadeInLeft" data-delay=".4s">Nos ajustamos a su tipo de negocio <br>Impulsamos su estrategia</h1>
+                              <h1 data-animation="fadeInLeft" data-delay=".4s">Modalidad Virtual <br>Modalidad presencial</h1>
                               <p data-animation="fadeInLeft" data-delay=".6s">Aasrem dfgum dolor sivst amet, consectetur adipisicing elitvde, sed dvo eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad micnim veniam, quis nostrud exercita.</p>
                               <!-- Hero Btn -->
                               <a href="#" class="hero-btn"  data-animation="fadeInLeft" data-delay=".9s" >
@@ -114,7 +114,7 @@
                                 <span class="flaticon-pay"></span>
                             </div>
                             <div class="services-cap">
-                                <h5>Aplicaciones seguras</h5>
+                                <h5>Programas educativos 100% virtuales</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                             </div>
                         </div>
@@ -125,7 +125,7 @@
                                 <span class="flaticon-good"></span>
                             </div>
                             <div class="services-cap">
-                                <h5>Clientes satisfechos</h5>
+                                <h5>Alumnos satisfechos</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                             </div>
                         </div>
@@ -140,7 +140,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-xl-8 col-lg-8 col-md-8">
                         <div class="wantToWork-caption wantToWork-caption2">
-                            <h2>Envianos un mensage para conocer que necesitas.</h2>
+                            <h2>Envianos un mensage para conocer el programa de tu interes.</h2>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4">
