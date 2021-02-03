@@ -14,7 +14,7 @@
                             <label for="typeUser" class="col-md-4 col-form-label text-md-right">{{ __('Rol') }}</label>
                             <div class="col-md-6">
                                 <select id="typeUser" class="form-control" name="typeUser" autofocus required>
-                                    <option value="Usuario">Estudiante</option>
+                                    <option value="Estudiante">Estudiante</option>
                                     <option value="Administrador">Administrador</option>
                                 </select>
                             </div>
