@@ -11,7 +11,7 @@
             <div class="card"> 
                 <div class="card-header">{{ __('ACTUALIZAR MI PERFIL') }}</div>
                 <div class="card-body">
-                    <form id="form" action="{{ route('students.update', $data_student) }}" method="POST">
+                    <form id="form" action="{{ route('student.update', $data_student) }}" method="POST">
                         @method('put')
                         @csrf
                         <div class="form-group row">
