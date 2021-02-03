@@ -81,6 +81,7 @@
         </nav>
     </div>
     <div  class="main-wrapper" class="navbar-toggler">
+        
     @yield('content')
     </div>
 
