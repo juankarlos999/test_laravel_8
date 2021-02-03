@@ -74,6 +74,7 @@
                                     </form>
                                 </div>
                             </li>
+                            <hr>
                         @endguest
                     </ul>
                 </div>

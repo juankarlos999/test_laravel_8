@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
 @stop
 @section('content')
-<hr>
 <!-- Preloader Start -->
 <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
