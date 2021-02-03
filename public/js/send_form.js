@@ -29,6 +29,7 @@
                     * Se ejecuta cuando termina la petición y esta ha sido
                     * correcta
                     * */
+                   html(data);
                    alert("Perfil actualizado");
                 },
                 error: function(data){
