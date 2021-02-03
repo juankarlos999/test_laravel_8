@@ -25,19 +25,6 @@
         </div>
     </div>
     <!-- Preloader Start -->
-    <header>
-        <!-- Header Start -->
-                            <!-- Mobile Menu -->
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
-                        </div>
-                    </div>
-               </div>
-            </div>
-       </div>
-        <!-- Header End -->
-    </header>
     <main>
         <!-- slider Area Start-->
         <div class="slider-area  slider-height" data-background="assets/img/hero/h1_hero.jpg">
