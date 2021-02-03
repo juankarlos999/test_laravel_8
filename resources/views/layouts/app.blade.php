@@ -81,8 +81,11 @@
         </nav>
     </div>
     <div  class="main-wrapper" class="navbar-toggler">
-    
     @yield('content')
     </div>
+
+    <!-- Jquery , ajax-->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js">script>
+    <script src="js/send_form.js">script>
 </body>
 </html>
