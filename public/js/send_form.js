@@ -1,11 +1,7 @@
-// Get location form
-var locationForm = document.getElementById('form');
-// Listen for submit
-locationForm.addEventListener('submit', handle_form);
+    /** Esta función se ejecuta durante el envió de la petición al* servidor.* */
 
-function handle_form(e){
-    console.log("estoy usando ajax heee!!!");
     $(document).ready(function () {
+        console.log("estoy usando ajax heee!!!");
     $("#form").bind("submit",function(){
             // Capturamnos el boton de envío
             var btnEnviar = $("#btnSend");
@@ -47,4 +43,3 @@ function handle_form(e){
             return false;
         });
     });
-}
