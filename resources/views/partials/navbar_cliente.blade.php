@@ -1,16 +1,8 @@
 <header>
     <div class="header-container">
         <a class="logo" href="/">
-            <img src="/img/logo.png" alt="">
-        </a> 
-        <div menu>           
-            <ul class="nav-utility">
-                <img src="/img/lupa.svg" alt="" width="40"> 
-                <li>
-                    <a id="orden" href="consultaorden">Consulte su orden</a>       
-                </li>
-            </ul>    
-        </div>
+            <img src="/img/new_logo.png" alt="">
+        </a>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"></a>
@@ -21,13 +13,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/home-clientes">Cómo funciona<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Cómo funciona<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('clientes.edit') }}">Mi perfil</a>
+                    <a class="nav-link" href="{{ route('student.edit') }}">Mi perfil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('menu-services-constumers') }}">Servicios de reparación</a>
+                    <a class="nav-link" href="#">Servicios de reparación</a>
                 </li>
             </ul>
         </div>
