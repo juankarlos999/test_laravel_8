@@ -103,7 +103,7 @@
                                 <span class="flaticon-experience"></span>
                             </div>
                             <div class="services-cap">
-                                <h5>Planeacion estrategica</h5>
+                                <h5>Contenidos Educativos integrales</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                                 <span class="flaticon-pay"></span>
                             </div>
                             <div class="services-cap">
-                                <h5>Programas educativos 100% virtuales</h5>
+                                <h5>Programas educativos virtuales 100% seguros</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                             </div>
                         </div>
