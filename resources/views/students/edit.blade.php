@@ -103,7 +103,7 @@
                             <hr>
                                 <div class="form-group row mb-0">
                                     <div class="col-md-6 offset-md-4">
-                                        <input type="submit" id="btnSend" name="btnSend" value="Actualizar formulario" class="btn btn-primary">
+                                        <input type="submit" value="Actualizar formulario" class="btn btn-primary">
                                     </div>
                                 </div>
                             </form>
