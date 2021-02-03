@@ -5,7 +5,7 @@
             // Capturamnos el boton de envío
             var btnEnviar = $("#btnSend");
             $.ajax({
-                type: $(this).attr("put"),
+                type: $(this).attr("method"),
                 url: $(this).attr("action"),
                 data:$(this).serialize(),
                 beforeSend: function(){
