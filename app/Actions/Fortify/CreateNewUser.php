@@ -30,10 +30,11 @@ class CreateNewUser implements CreatesNewUsers
                 'max:255',
                 Rule::unique(User::class),
             ],
-            'phoneNumber1' => ['required', 'string'],
-            'phoneNumber2' => ['string'],
+            'phoneNumber' => ['required', 'string'],
             'address' => ['required', 'string', 'max:255'],
-            'neighborhood' => ['required', 'string', 'max:255'],
+            'city_residence' => ['required', 'string', 'max:255'],
+            'hometown' => ['required', 'string', 'max:255'],
+            'nationality' => ['required', 'string', 'max:255'],
             'password' => $this->passwordRules(),
         ])->validate();
 
@@ -41,10 +42,11 @@ class CreateNewUser implements CreatesNewUsers
             'typeUser' => $input['typeUser'],
             'name' => $input['name'],
             'email' => $input['email'],
-            'phoneNumber1' => $input['phoneNumber1'],
-            'phoneNumber2' => $input['phoneNumber1'],
+            'phoneNumber' => $input['phoneNumber'],
             'address' => $input['address'],
-            'neighborhood' => $input['neighborhood'],
+            'city_residence' => $input['city_residence'],
+            'hometown' => $input['hometown'],
+            'nationality' => $input['nationality'],
             'password' => Hash::make($input['password']),
         ]);
     }
