@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\PageController;
-use App\Models\Technician_profiles;
 use App\Models\User;
 
 class HomeController extends Controller
@@ -29,8 +28,8 @@ class HomeController extends Controller
     {
         $foreign_id_technician= Technician_profiles::find(Auth::user()->id);
 
-        if(Auth::user()->typeUser=='Usuario'){
-            return redirect()->route('home-Customers');
+        if(Auth::user()->typeUser=='Estudiante'){
+            return redirect()->route('home');
         }
         elseif(is_null($foreign_id_technician)){
 
