@@ -28,7 +28,7 @@ class HomeController extends Controller
     {
 
         if(Auth::user()->typeUser=='Estudiante'){
-            return view('home');
+            return redirect()->route('student.edit');
         }
     }
 }
