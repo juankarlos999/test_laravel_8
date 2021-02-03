@@ -21,7 +21,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <h2>Mi prueba</h2>
+                    <h4>Mi prueba</h4>
                 </div>
             </div>
         </div>
