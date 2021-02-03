@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
-
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\StudentController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,4 +17,10 @@ use App\Http\Controllers\PageController;
 
 Route::get('/', [PageController::class, 'home']);
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+
+/* Students*/
+
+Route::get('/estudiante', [StudentController::class, 'edit'])->middleware('auth')->name('student.edit');
+
+Route::put('/actualizado-estudiante/{id}', [StudentController::class, 'update'])->middleware('auth')->name('student.update');
