@@ -135,9 +135,6 @@
                                 </div>
                             </form>
                             <hr>
-    <p class="respuesta">
-
-</p>
                 </div>
             </div>
         </div>

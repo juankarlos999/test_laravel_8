@@ -1,7 +1,6 @@
     /** Esta función se ejecuta durante el envió de la petición al* servidor.* */
 
     $(document).ready(function () {
-        console.log("estoy usando ajax heee!!!");
     $("#form").bind("submit",function(){
             // Capturamnos el boton de envío
             var btnEnviar = $("#btnSend");
@@ -10,7 +9,6 @@
                 url: $(this).attr("action"),
                 data:$(this).serialize(),
                 beforeSend: function(){
-                    console.log("estoy dentro la funcion ajax!!!");
                     /*
                     * Esta función se ejecuta durante el envió de la petición al
                     * servidor.

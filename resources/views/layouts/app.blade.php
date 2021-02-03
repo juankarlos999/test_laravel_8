@@ -84,7 +84,7 @@
     @yield('content')
     </div>
 
-    <!-- Jquery , ajax-->
+    <!-- Jquery, ajax-->
     <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
     <script src="js/send_form.js" async></script>
 </body>
