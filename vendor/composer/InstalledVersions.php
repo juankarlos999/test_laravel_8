@@ -1,5 +1,15 @@
 <?php
 
+
+
+
+
+
+
+
+
+
+
 namespace Composer;
 
 use Composer\Semver\VersionParser;
@@ -19,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '3c6e076d6bdde6f94ce454e959c8f7bffcb15912',
+    'reference' => '29eb1cb78115c0b052828fc54662000a11a0f61d',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -41,6 +51,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '3e9d791b67d0a2912922b7b7c7312f4b37af41e4',
+    ),
+    'biscolab/laravel-recaptcha' => 
+    array (
+      'pretty_version' => '5.0.1',
+      'version' => '5.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '21018b259827e1446ea9d829ae423022a0e1025e',
     ),
     'brick/math' => 
     array (
@@ -485,7 +504,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '3c6e076d6bdde6f94ce454e959c8f7bffcb15912',
+      'reference' => '29eb1cb78115c0b052828fc54662000a11a0f61d',
     ),
     'laravel/tinker' => 
     array (
