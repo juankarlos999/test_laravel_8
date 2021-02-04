@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="/css/style.css">
 @stop
 @section('content')
+<hr>
 <div class="container">
 <div class="row justify-content-center">
         <div class="col-md-8">

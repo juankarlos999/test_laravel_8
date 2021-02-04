@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Clientes')
+@section('title', 'Mi area Estudiante')
 @section('css')
 <link rel="stylesheet" href="/css/style1.css">
 @stop
