@@ -14,6 +14,15 @@
                     <form action="{{ route('student.update', $data_student) }}" method="POST">
                         @method('put')
                         @csrf
+                        <img src="/img/new_logo.png">
+                        <br>
+                        <hr>
+                        <div class="form-group row">
+                            <label for="cod_student"  class="col-md-4 col-form-label text-md-right">Codigo del estudiante</label>
+                            <div class="col-md-6">
+                                <input type="number" name="id" id="cod_student" value="{{ $data_student->id }}" class="form-control" readonly>
+                            </div>
+                        </div>
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nombre') }}</label> 
                             <div class="col-md-6">

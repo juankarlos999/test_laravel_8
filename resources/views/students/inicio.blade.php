@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="/css/style1.css">
 @stop
 @section('content')
-@include('partials.navbar_cliente')
+@include('partials.navbar_student')
 <div class="picture">
                 <div>
                     <img src="/img/funcionamiento1.png" alt="">

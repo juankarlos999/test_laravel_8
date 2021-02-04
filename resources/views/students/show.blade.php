@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="/css/style1.css">
 @stop
 @section('content')
-@include('partials.navbar_cliente')
+@include('partials.navbar_student')
 <body>
 
     @include('partials.footer')
