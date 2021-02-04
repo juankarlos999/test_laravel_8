@@ -90,6 +90,7 @@
                                 </div> 
                             </div>
                             <hr>
+                            {{-- Seccion dos datos tabla courses --}}
                             <h4>Datos del programa</h4>
                             <div class="form-group row">
                                 <label for="program_name" class="col-md-4 col-form-label text-md-right">Nombre del programa</label>
