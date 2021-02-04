@@ -106,7 +106,6 @@
                                     <input type="text" name="campus" id="campus" class="form-control" required>     
                                 </div> 
                             </div>
-                            <hr>
                                 <div class="form-group row">
                                     <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
 
@@ -135,10 +134,10 @@
                                     </div>
                                 </div>
                             </form>
-                            <hr>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<br>
 @endsection
