@@ -1,5 +1,9 @@
 @extends('layouts.main', ['class' => 'off-canvas-sidebar', 'activePage' => 'login','title' => __('Prueba Laravel')])
 @section('title', 'Login')
+@section('resources')
+
+  {!! htmlScriptTagJsApi(['action' => 'homepage']) !!}
+  
 @section('content')
 <div class="container" style="height: auto;">
   <div class="row align-items-center">
