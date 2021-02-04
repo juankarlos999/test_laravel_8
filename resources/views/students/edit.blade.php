@@ -4,12 +4,12 @@
 <link rel="stylesheet" href="/css/style.css">
 @stop
 @section('content')
-<hr>
+<br>
 <div class="container">
 <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card"> 
-                <div class="card-header">{{ __('ACTUALIZAR MI PERFIL') }}</div>
+                <div class="card-header">{{ __('ACTUALIZAR MIS DATOS') }}</div>
                 <div class="card-body">
                     <form action="{{ route('student.update', $data_student) }}" method="POST">
                         @method('put')
