@@ -4,8 +4,8 @@
 
 The following resources were needed for the development of this project:
 
-RECAPTCHA_SECRET_KEY
-RECAPTCHA_SITE_KEY 
+- RECAPTCHA_SECRET_KEY
+- RECAPTCHA_SITE_KEY 
 
 [API test](http://mi-prueba-laravel.herokuapp.com/): It is a test app
 
@@ -25,6 +25,7 @@ Coming...
 ### Built with 🛠️
 The core language used to develop the application is
 - php 7
+- PostgreSQL
 
 Frameworks:
 - Laravel 8
