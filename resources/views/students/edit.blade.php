@@ -65,49 +65,56 @@
                                     <input type="tel" name="phoneNumber" id="telefono" value="{{ $data_student->phoneNumber }}" class="form-control" pattern="[0-9]{10}" required>
                                 </div>
                             </div>
+                            <hr>
+                            <h4>Direccion de residencia</h4>
                             <div class="form-group row">
-                                <label for="direccion"  class="col-md-4 col-form-label text-md-right">Direccion</label>
+                                <label for="street"  class="col-md-4 col-form-label text-md-right">Direccion</label>
                                 <div class="col-md-6">
-                                    <input type="text" name="address" id="direccion" value="{{ $data_student->address }}" class="form-control" required>     
+                                    <input type="text" name="street" id="street" class="form-control" required>     
+                                </div>   
+                            </div>
+                            <div class="form-group row">
+                                <label for="neighborhood"  class="col-md-4 col-form-label text-md-right">Barrio</label>
+                                <div class="col-md-6">
+                                    <input type="text" name="neighborhood" id="neighborhood" class="form-control" required>     
                                 </div>   
                             </div>
                             <div class="form-group row">
                                 <label for="city_residence" class="col-md-4 col-form-label text-md-right">Ciudad de residencia</label>
                                 <div class="col-md-6">
-                                    <input type="text" name="city_residence" id="city_residence" value="{{ $data_student->city_residence }}" class="form-control" required>     
+                                    <input type="text" name="city_residence" id="city_residence" class="form-control" required>     
                                 </div> 
                             </div>
                             <div class="form-group row">
                                 <label for="hometown" class="col-md-4 col-form-label text-md-right">Ciudad de Origen</label>
                                 <div class="col-md-6">
-                                    <input type="text" name="hometown" id="hometown" value="{{ $data_student->hometown }}" class="form-control" required>     
+                                    <input type="text" name="hometown" id="hometown" class="form-control" required>     
                                 </div> 
                             </div>
                             <div class="form-group row">
                                 <label for="nationality" class="col-md-4 col-form-label text-md-right">Nacionalidad</label>
                                 <div class="col-md-6">
-                                    <input type="text" name="nationality" id="nationality" value="{{ $data_student->nationality }}" class="form-control" required>     
+                                    <input type="text" name="nationality" id="nationality" class="form-control" required>     
                                 </div> 
                             </div>
                             <hr>
-                            {{-- Seccion dos datos tabla courses --}}
                             <h4>Datos del programa</h4>
                             <div class="form-group row">
-                                <label for="program_name" class="col-md-4 col-form-label text-md-right">Nombre del programa</label>
+                                <label for="name_program" class="col-md-4 col-form-label text-md-right">Nombre del programa</label>
                                 <div class="col-md-6">
-                                    <input type="text" name="program_name" id="program_name" class="form-control" required>     
+                                    <input type="text" name="name_program" id="name_program" class="form-control" required>     
                                 </div> 
                             </div>
                             <div class="form-group row">
-                                <label for="school" class="col-md-4 col-form-label text-md-right">Facultad</label>
-                                <div class="col-md-6">
-                                    <input type="text" name="school" id="school" class="form-control" required>     
-                                </div> 
-                            </div>
-                            <div class="form-group row">
-                                <label for="campus" class="col-md-4 col-form-label text-md-right">Campus</label>
+                                <label for="campus" class="col-md-4 col-form-label text-md-right">Facultad</label>
                                 <div class="col-md-6">
                                     <input type="text" name="campus" id="campus" class="form-control" required>     
+                                </div> 
+                            </div>
+                            <div class="form-group row">
+                                <label for="faculty" class="col-md-4 col-form-label text-md-right">Campus</label>
+                                <div class="col-md-6">
+                                    <input type="text" name="faculty" id="faculty" class="form-control" required>     
                                 </div> 
                             </div>
                             <hr>
