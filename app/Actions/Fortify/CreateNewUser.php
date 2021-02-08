@@ -39,8 +39,10 @@ class CreateNewUser implements CreatesNewUsers
             'nationality' => ['required', 'string', 'max:255'],
             'password' => $this->passwordRules(),
         ])->validate();
+        
 
-        $new_user = User::create([
+        return User::create([
+            'role_id' => $input['role_id'],
             'name' => $input['name'],
             'last_name' => $input['last_name'],
             'email' => $input['email'],
@@ -51,11 +53,5 @@ class CreateNewUser implements CreatesNewUsers
             'nationality' => $input['nationality'],
             'password' => Hash::make($input['password']),
         ]);
-        
-        $id_user = User::where('email', $input['email'])->first();
-        $new_rol = new RoleUserController();
-        $new_rol->create($input['role_id'], $id_user->id);
-
-        return $new_user;
     }
 }
