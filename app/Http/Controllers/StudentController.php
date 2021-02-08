@@ -60,7 +60,7 @@ class StudentController extends Controller
     {
         $data_student = Auth::user();
 
-        if(Role::firstWhere(Auth::user()->role_id, '1')){
+        if(Role::firstWhere(Auth::user()->role_id, 1)){
             return view('students.edit', compact('data_student'));
         }
     }
