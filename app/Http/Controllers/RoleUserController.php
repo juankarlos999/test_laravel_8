@@ -28,6 +28,7 @@ class RoleUserController extends Controller
 
         $new_user->user_id = $id_user;
         $new_user->role_id = $role_id;
+        $new_user->save();
     }
 
     /**
