@@ -3,6 +3,7 @@
 namespace App\Actions\Fortify;
 
 use App\Models\User;
+use App\Http\Controllers\RoleUserController;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rule;
@@ -21,7 +22,7 @@ class CreateNewUser implements CreatesNewUsers
     public function create(array $input)
     {
         Validator::make($input, [
-            'typeUser' => ['required', 'string', 'max:255'],
+            'rol_name' => ['required', 'integer'],
             'name' => ['required', 'string', 'max:255'],
             'last_name' => ['required', 'string', 'max:255'],
             'email' => [
@@ -39,8 +40,7 @@ class CreateNewUser implements CreatesNewUsers
             'password' => $this->passwordRules(),
         ])->validate();
 
-        return User::create([
-            'typeUser' => $input['typeUser'],
+        $new_user = User::create([
             'name' => $input['name'],
             'last_name' => $input['last_name'],
             'email' => $input['email'],
@@ -51,5 +51,11 @@ class CreateNewUser implements CreatesNewUsers
             'nationality' => $input['nationality'],
             'password' => Hash::make($input['password']),
         ]);
+        
+        $id_user = User::where('email', $input['email'])->first();
+        $new_rol = new RoleUserController();
+        $new_rol->create($input['rol_name'], $id_user->id);
+
+        return $new_user;
     }
 }
