@@ -60,7 +60,7 @@ class StudentController extends Controller
     {
         $data_student = Auth::user();
 
-        if(Auth::user()->typeUser=='Estudiante'){
+        if(Role::find(Auth::user()->role_id)=='1'){
         return view('students.edit', compact('data_student'));
         }
     }
@@ -81,7 +81,6 @@ class StudentController extends Controller
         $data_student->email = $request->email;
         $data_student->phoneNumber = $request->phoneNumber;
         $data_student->address_id = $request->address_id;
-        $data_student->city_residence = $request->city_residence;
         $data_student->hometown = $request->hometown;
         $data_student->nationality = $request->nationality;
 
