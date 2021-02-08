@@ -22,7 +22,7 @@ class CreateNewUser implements CreatesNewUsers
     public function create(array $input)
     {
         Validator::make($input, [
-            'role_name' => ['required', 'integer'],
+            'role_id' => ['required', 'integer'],
             'name' => ['required', 'string', 'max:255'],
             'last_name' => ['required', 'string', 'max:255'],
             'email' => [
@@ -54,7 +54,7 @@ class CreateNewUser implements CreatesNewUsers
         
         $id_user = User::where('email', $input['email'])->first();
         $new_rol = new RoleUserController();
-        $new_rol->create($input['role_name'], $id_user->id);
+        $new_rol->create($input['role_id'], $id_user->id);
 
         return $new_user;
     }
