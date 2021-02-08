@@ -22,7 +22,7 @@ class User extends Authenticatable
         'last_name',
         'email',
         'phoneNumber',
-        'address',
+        'address_id',
         'city_residence',
         'hometown',
         'nationality',
