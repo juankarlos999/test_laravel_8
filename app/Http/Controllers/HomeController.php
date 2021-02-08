@@ -28,7 +28,7 @@ class HomeController extends Controller
     public function index()
     {
 
-        if(Role::find(Auth::user()->role_id)=='1'){
+        if(Role::firstWhere(Auth::user()->role_id, '1')){
             return redirect()->route('student.edit');
         }
     }
