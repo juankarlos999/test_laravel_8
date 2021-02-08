@@ -23,9 +23,9 @@ class RoleUserController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create($rol_name, $id_user, Role_User $new_user)
+    public function create($role_name, $id_user, Role_User $new_user)
     {
-        $id_rol = Role::where('rol_name', $rol_name)->first();
+        $id_rol = Role::where('role_name', $role_name)->first();
 
         $new_user->user_id = $id_user;
         $new_user->user_id = $id_rol;

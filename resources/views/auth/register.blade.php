@@ -12,9 +12,9 @@
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
                         <div class="form-group row">
-                            <label for="rol_name" class="col-md-4 col-form-label text-md-right">{{ __('Rol') }}</label>
+                            <label for="role_name" class="col-md-4 col-form-label text-md-right">{{ __('Rol') }}</label>
                             <div class="col-md-6">
-                                <select id="rol_name" class="form-control" name="rol_name" autofocus required>
+                                <select id="role_name" class="form-control" name="role_name" autofocus required>
                                     <option selected></option>
                                     <option value="1">Estudiante</option>
                                     <option value="2">Administrador</option>
