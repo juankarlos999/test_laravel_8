@@ -34,7 +34,7 @@
                         <div class="form-group row">
                             <label for="last_name" class="col-md-4 col-form-label text-md-right">{{ __('Apellidos') }}</label> 
                             <div class="col-md-6">
-                                <input id="last_name" type="text" class="form-control @error('last_name') is-invalid @enderror" name="last_name" value="{{ $data_user->name }}" required autocomplete="last_name" autofocus>
+                                <input id="last_name" type="text" class="form-control @error('last_name') is-invalid @enderror" name="last_name" value="{{ $data_user->last_name }}" required autocomplete="last_name" autofocus>
                                  @error('last_name')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
@@ -46,7 +46,7 @@
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Correo Electronico') }}</label>
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ $data_user->name }}" required autocomplete="email">
+                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ $data_user->email }}" required autocomplete="email">
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -58,21 +58,21 @@
                         <div class="form-group row">
                                 <label for="phoneNumber"  class="col-md-4 col-form-label text-md-right">Telefono</label>
                             <div class="col-md-6">
-                                <input type="tel" name="phoneNumber" id="phoneNumber" value="{{ $data_user->name }}" class="form-control" pattern="[0-9]{10}" required>
+                                <input type="tel" name="phoneNumber" id="phoneNumber" value="{{ $data_user->phoneNumber }}" class="form-control" pattern="[0-9]{10}" required>
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <label for="hometown" class="col-md-4 col-form-label text-md-right">Ciudad de Origen</label>
                             <div class="col-md-6">
-                                <input type="text" name="hometown" id="hometown" value="{{ $data_user->name }}" class="form-control" required>     
+                                <input type="text" name="hometown" id="hometown" value="{{ $data_user->hometown }}" class="form-control" required>     
                             </div> 
                         </div>
 
                         <div class="form-group row">
                             <label for="nationality" class="col-md-4 col-form-label text-md-right">Nacionalidad</label>
                             <div class="col-md-6">
-                                <input type="text" name="nationality" id="nationality" value="{{ $data_user->name }}" class="form-control" required>     
+                                <input type="text" name="nationality" id="nationality" value="{{ $data_user->nationality }}" class="form-control" required>     
                             </div> 
                         </div>
 
