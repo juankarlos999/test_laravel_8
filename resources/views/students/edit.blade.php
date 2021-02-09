@@ -6,39 +6,48 @@
 @section('content')
 <br>
 <div class="container">
-<div class="row justify-content-center">
+    <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card"> 
-                <div class="card-header">{{ __('ACTUALIZAR MIS DATOS') }}</div>
+            <div class="card">
+                <div class="card-header">{{ __('Actualizar mis datos') }}</div>
+
                 <div class="card-body">
-                    <form action="{{ route('student.update', $data_student) }}" method="POST">
-                        @method('put')
+                    <form method="POST" action="{{ route('student.update', $data_user) }}">
+                        @method('PUT')
                         @csrf
                         <img src="/img/new_logo.png">
                         <br>
                         <hr>
+
                         <div class="form-group row">
-                            <label for="cod_student"  class="col-md-4 col-form-label text-md-right">Codigo del estudiante</label>
+                                <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nombre') }}</label>
                             <div class="col-md-6">
-                                <input type="number" name="id" id="cod_student" value="{{ $data_student->id }}" class="form-control" readonly>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nombre') }}</label> 
-                            <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ $data_student->name }}" required autocomplete="name" autofocus>
+                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ $data_user->name }}" required autocomplete="name" autofocus>
                                 @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
                                 @enderror
                             </div>
                         </div>
+
                         <div class="form-group row">
                             <label for="last_name" class="col-md-4 col-form-label text-md-right">{{ __('Apellidos') }}</label> 
                             <div class="col-md-6">
-                                <input id="last_name" type="text" class="form-control @error('last_name') is-invalid @enderror" name="last_name" value="{{ $data_student->last_name }}" required autocomplete="last_name" autofocus>
-                                @error('last_name')
+                                <input id="last_name" type="text" class="form-control @error('last_name') is-invalid @enderror" name="last_name" value="{{ $data_user->name }}" required autocomplete="last_name" autofocus>
+                                 @error('last_name')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Correo Electronico') }}</label>
+                            <div class="col-md-6">
+                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ $data_user->name }}" required autocomplete="email">
+                                @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
@@ -46,89 +55,78 @@
                             </div>
                         </div>
 
-                                <div class="form-group row">
-                                    <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Correo Electronico') }}</label>
+                        <div class="form-group row">
+                                <label for="phoneNumber"  class="col-md-4 col-form-label text-md-right">Telefono</label>
+                            <div class="col-md-6">
+                                <input type="tel" name="phoneNumber" id="phoneNumber" value="{{ $data_user->name }}" class="form-control" pattern="[0-9]{10}" required>
+                            </div>
+                        </div>
 
-                                    <div class="col-md-6">
-                                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ $data_student->email }}" required autocomplete="email">
+                        <div class="form-group row">
+                            <label for="hometown" class="col-md-4 col-form-label text-md-right">Ciudad de Origen</label>
+                            <div class="col-md-6">
+                                <input type="text" name="hometown" id="hometown" value="{{ $data_user->name }}" class="form-control" required>     
+                            </div> 
+                        </div>
 
-                                        @error('email')
-                                            <span class="invalid-feedback" role="alert">
-                                                <strong>{{ $message }}</strong>
-                                            </span>
-                                        @enderror
-                                    </div>
+                        <div class="form-group row">
+                            <label for="nationality" class="col-md-4 col-form-label text-md-right">Nacionalidad</label>
+                            <div class="col-md-6">
+                                <input type="text" name="nationality" id="nationality" value="{{ $data_user->name }}" class="form-control" required>     
+                            </div> 
+                        </div>
+
+                        <div class="form-group row mb-0">
+                            <div class="col-md-6 offset-md-4">
+                                <input type="submit" value="Guardar y actualizar" class="btn btn-primary">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card"> 
+                <div class="card-header">{{ __('Actualizar direccion de residencia') }}</div>
+                    <div class="card-body">
+                        <form method="POST" action="#">
+                           <!-- @method('PUT')
+                            @csrf -->
+                            <div  class="form-group row">
+                                <div class="col-7">
+                                    <label for="street">Direccion</label>
+                                    <input type="text" class="form-control" id="street" value="" name="street">
                                 </div>
-                                <div class="form-group row">
-                                <label for="telefono"  class="col-md-4 col-form-label text-md-right">Telefono</label>
-                                <div class="col-md-6">
-                                    <input type="tel" name="phoneNumber" id="telefono" value="{{ $data_student->phoneNumber }}" class="form-control" pattern="[0-9]{10}" required>
+
+                                <div class="col-3">
+                                    <label for="neighborhood">Barrio</label>
+                                    <input type="text" class="form-control" id="neighborhood" value="" name="neighborhood">
                                 </div>
                             </div>
-                            <hr>
-                            <h4>Direccion de residencia</h4>
-                            <div class="form-group row">
-                                <label for="street"  class="col-md-4 col-form-label text-md-right">Direccion</label>
-                                <div class="col-md-6">
-                                    <input type="text" name="street" id="street" class="form-control" required>     
-                                </div>   
-                            </div>
-                            <div class="form-group row">
-                                <label for="neighborhood"  class="col-md-4 col-form-label text-md-right">Barrio</label>
-                                <div class="col-md-6">
-                                    <input type="text" name="neighborhood" id="neighborhood" class="form-control" required>     
-                                </div>   
-                            </div>
+                            
                             <div class="form-group row">
                                 <label for="city_residence" class="col-md-4 col-form-label text-md-right">Ciudad de residencia</label>
                                 <div class="col-md-6">
-                                    <input type="text" name="city_residence" id="city_residence" class="form-control" required>     
+                                    <input type="text" name="city_residence" id="city_residence" value="" class="form-control" required>     
                                 </div> 
                             </div>
-                            <div class="form-group row">
-                                <label for="hometown" class="col-md-4 col-form-label text-md-right">Ciudad de Origen</label>
-                                <div class="col-md-6">
-                                    <input type="text" name="hometown" id="hometown" class="form-control" required>     
-                                </div> 
-                            </div>
-                            <div class="form-group row">
-                                <label for="nationality" class="col-md-4 col-form-label text-md-right">Nacionalidad</label>
-                                <div class="col-md-6">
-                                    <input type="text" name="nationality" id="nationality" class="form-control" required>     
-                                </div> 
-                            </div>
-                            <hr>
-                            <h4>Datos del programa</h4>
-                            <div class="form-group row">
-                                <label for="name_program" class="col-md-4 col-form-label text-md-right">Nombre del programa</label>
-                                <div class="col-md-6">
-                                    <input type="text" name="name_program" id="name_program" class="form-control" required>     
-                                </div> 
-                            </div>
-                            <div class="form-group row">
-                                <label for="campus" class="col-md-4 col-form-label text-md-right">Facultad</label>
-                                <div class="col-md-6">
-                                    <input type="text" name="campus" id="campus" class="form-control" required>     
-                                </div> 
-                            </div>
-                            <div class="form-group row">
-                                <label for="faculty" class="col-md-4 col-form-label text-md-right">Campus</label>
-                                <div class="col-md-6">
-                                    <input type="text" name="faculty" id="faculty" class="form-control" required>     
-                                </div> 
-                            </div>
-                            <hr>
-                                <div class="form-group row mb-0">
-                                    <div class="col-md-6 offset-md-4">
-                                        <input type="submit" value="Actualizar formulario" class="btn btn-primary">
-                                    </div>
+
+                            <div class="form-group row mb-0">
+                                <div class="col-md-6 offset-md-4">
+                                    <input type="submit" value="Guardar y actualizar" class="btn btn-primary">
                                 </div>
-                            </form>
+                            </div>
+                        </form>
+                    </div>
+            </div> 
+        </div>
     </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div> 
+</div>
+<br>
 @include('partials.footer')
 @endsection
