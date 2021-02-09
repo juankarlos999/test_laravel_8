@@ -18,6 +18,7 @@ class ProgramTable extends Migration
             $table->string('name_program');
             $table->string('campus');
             $table->string('faculty');
+            $table->timestamps();
         });
     }
 
