@@ -86,7 +86,9 @@ class StudentController extends Controller
 
         $data_user->save();
 
-        return view('students.edit', compact('data_user'));
+        $address_user = $data_user->address;
+
+        return view('students.edit', compact('data_user', 'address_user'));
     }
 
     /**
