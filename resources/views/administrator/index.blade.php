@@ -4,6 +4,6 @@
 <link rel="stylesheet" href="/css/style.css">
 @stop
 @section('content')
-@include('partials.navbar_student')
+@include('partials.navbar')
 
 @stop
