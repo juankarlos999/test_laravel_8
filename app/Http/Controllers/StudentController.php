@@ -60,7 +60,7 @@ class StudentController extends Controller
     public function edit()
     {
         $data_user = User::find(Auth::user()->id);
-        $address_user = $data_user->address();
+        $address_user = $data_user->address;
 
        /* if($data_user->roles()->where('user_id', 1)->get()){
             return view('students.edit', compact('data_user', 'address_user'));
