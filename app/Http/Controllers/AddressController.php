@@ -90,8 +90,7 @@ class AddressController extends Controller
 
         $data_user = $address_user->user;
 
-        //return view('students.edit', compact('data_user', 'address_user'));
-        return $data_user;
+        return view('students.edit', compact('data_user', 'address_user'));
     }
 
     /**
