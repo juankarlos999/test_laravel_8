@@ -10,6 +10,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('student.edit') }}">Mi perfil</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('list-orders-tech.index') }}">Programa educativo</a>
+                </li>
             </ul>
         </div>
     </nav>
