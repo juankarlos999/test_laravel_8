@@ -33,6 +33,8 @@ class HomeController extends Controller
             return view('auth.register');
         }elseif(Role::where(Auth::user()->role_id, 1)){
             return view('students.inicio');
+        }elseif(Role::where(Auth::user()->role_id, 2)){
+            return view('administrator.inicio');
         }
     }
 }

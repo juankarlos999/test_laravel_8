@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use App\Models\Role;
+use App\Models\User;
 
 class RoleSeeder extends Seeder
 {
@@ -23,6 +24,10 @@ class RoleSeeder extends Seeder
 
         $administrator_role->role_name = 'Administrador';
         $administrator_role->save();
-        
+
+        $role_user = new Role();
+        for($i = 1; $i <= 10; $i++){
+            $role_user->users()->attach(User::all()->random()->id);
+        }   
     }
 }

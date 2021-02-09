@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\AddressController;
 use App\Http\Controllers\ProgramController;
+use App\Http\Controllers\AdministratorController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,3 +36,6 @@ Route::put('/estudiante-actualizado/{id}', [AddressController::class, 'update'])
 
 /* Programs */
 Route::get('/mi-programa', [ProgramController::class, 'index'])->middleware('auth')->name('program.index');
+
+/* Administrator */
+Route::get('/perfil-administrador', [AdministratorController::class, 'edit'])->middleware('auth')->name('admin.edit');
