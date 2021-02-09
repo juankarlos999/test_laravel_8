@@ -29,13 +29,12 @@ class HomeController extends Controller
     {
         $user = User::find(Auth::user()->id);
         $rol_user = User::find(Auth::user()->id);
-        $rol_user->roles()->role_id;
 
         if(is_null($user->address)){
             return view('auth.register');
-        }elseif($rol_user->roles()->role_id == 1){
+        }elseif($rol_user->roles->role_id == 1){
             return view('students.inicio');
-        }elseif($rol_user->roles()->role_id == 2){
+        }elseif($rol_user->roles->role_id == 2){
             return view('administrator.inicio');
         }
     }
