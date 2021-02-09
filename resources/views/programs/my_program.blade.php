@@ -15,40 +15,36 @@
                     <form method="" action="#">
                        <!-- @csrf -->
                        <!-- Programs -->
-                        @foreach($programList as $key =>$program)
+                        @foreach($data_program as $key =>$program)
                         <div class="form-group row">
                             <label for="name_program" class="col-md-4 col-form-label text-md-right">{{ __('Nombre del programa') }}</label>
                             <div class="col-md-6">
                                 <select id="name_program" class="form-control" name="name_program" autofocus required>
-                                    <option value="Usuario" selected>Desarrollo web</option>
+                                    <option value="{{ $program->id }}" selected>{{ $program->name_program }}</option>
                                 </select>
                             </div>
                         </div>
                         @endforeach
                         <!-- Faculty -->
-                        @foreach($facultyList as $key =>$faculty)
+                        @foreach($data_program as $key =>$faculty)
                         <div class="form-group row">
                                 <label for="faculty" class="col-md-4 col-form-label text-md-right">Facultad</label>
                                 <div class="col-md-6">
                                 <select id="faculty" name="faculty" class="form-control" autofocus required>
                                     <option selected></option>
-                                    <option value="Restrepo">Restrepo</option>
-                                    <option value="Suba Rincon">Suba Rincon</option>
-                                    <option value="Teusaquillo">Teusaquillo</option>
+                                    <option value="{{ $faculty->id }}">{{ $faculty->name_program }}</option>
                                 </select>
                                 </div>
                             </div>
                         @endforeach
                         <!-- Campus -->
-                        @foreach($campusList as $key =>$campus)
+                        @foreach($data_program as $key =>$campus)
                             <div class="form-group row">
                                 <label for="campus" class="col-md-4 col-form-label text-md-right">Campus</label>
                                 <div class="col-md-6">
                                 <select id="campus" name="campus" class="form-control" autofocus required>
                                     <option selected></option>
-                                    <option value="Restrepo">Restrepo</option>
-                                    <option value="Suba Rincon">Suba Rincon</option>
-                                    <option value="Teusaquillo">Teusaquillo</option>
+                                    <option value="{{ $faculty->id }}">{{ $campus->campus }}</option>
                                 </select>
                                 </div>
                             </div>
