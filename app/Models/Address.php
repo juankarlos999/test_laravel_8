@@ -5,14 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Role extends Model
+class Address extends Model
 {
     use HasFactory;
 
     /**
-     * Funcion relacion muchos a muchos entre User y Role
+     * Funcion relacion uno a uno inversa entre Address y User
      */
-    public function users(){
-        return $this->belongsToMany('App\Models\User');
+    public function user(){
+        return $this->belongTo('App\Models\User');
     }
 }

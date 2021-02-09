@@ -17,7 +17,6 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'role_id',
         'name',
         'last_name',
         'email',
@@ -47,4 +46,18 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * Funcion relacion uno a uno entre User y Address
+     */
+    public function address(){
+        return $this->hasOne('App\Models\Address');
+    }
+
+    /**
+     * Funcion relacion muchos a muchos entre User y Role
+     */
+    public function roles(){
+        return $this->belongsToMany('App\Models\Role');
+    }
 }
