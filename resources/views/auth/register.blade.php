@@ -105,8 +105,8 @@
             <div class="card"> 
                 <div class="card-header">{{ __('PASO 2: Información sobre su lugar de residencia y Rol') }}</div>
                     <div class="card-body">
-                        <form method="POST" action="#">
-                            <!-- @csrf -->
+                        <form method="POST" action="{{ route('address.create') }}">
+                            @csrf
                             <div  class="form-group row">
                                 <div class="col-7">
                                     <label for="street">Direccion</label>
