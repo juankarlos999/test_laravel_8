@@ -23,6 +23,8 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 /* Students*/
 Route::get('/perfil-estudiante', [StudentController::class, 'edit'])->middleware('auth')->name('student.edit');
 
+//Route::get('/perfil-estudiante', [StudentController::class, 'edit'])->middleware('auth')->name('student.edit');
+
 Route::put('/actualizado-estudiante/{id}', [StudentController::class, 'update'])->middleware('auth')->name('student.update');
 
 /* Address */

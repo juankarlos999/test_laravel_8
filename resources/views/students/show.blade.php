@@ -8,8 +8,7 @@
 @stop
 @section('content')
 @include('partials.navbar_student')
-<body>
 
-    @include('partials.footer')
-</body>
+
+@include('partials.footer')
 @stop

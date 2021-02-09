@@ -32,7 +32,7 @@ class HomeController extends Controller
         if(is_null($user->address)){
             return view('auth.register');
         }elseif(Role::where(Auth::user()->role_id, 1)){
-            return redirect()->route('student.edit');
+            return view('students.inicio');
         }
     }
 }
