@@ -94,9 +94,9 @@
             <div class="card"> 
                 <div class="card-header">{{ __('Actualizar direccion de residencia') }}</div>
                     <div class="card-body">
-                        <form method="" action="#">
-                           <!-- @method('PUT')
-                            @csrf -->
+                        <form method="POST" action="{{ route('address.update', $address_user) }}">
+                            @method('PUT')
+                            @csrf
                             <div  class="form-group row">
                                 <div class="col-7">
                                     <label for="street">Direccion</label>
