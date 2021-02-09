@@ -94,7 +94,7 @@
             <div class="card"> 
                 <div class="card-header">{{ __('Actualizar direccion de residencia') }}</div>
                     <div class="card-body">
-                        <form method="POST" action="#">
+                        <form method="" action="#">
                            <!-- @method('PUT')
                             @csrf -->
                             <div  class="form-group row">

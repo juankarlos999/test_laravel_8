@@ -83,7 +83,7 @@ class StudentController extends Controller
         $data_user->phoneNumber = $request->phoneNumber;
         $data_user->hometown = $request->hometown;
 
-        $data_user>save();
+        $data_user->save();
 
         return view('students.edit', compact('data_user'));
     }
