@@ -100,19 +100,19 @@
                             <div  class="form-group row">
                                 <div class="col-7">
                                     <label for="street">Direccion</label>
-                                    <input type="text" class="form-control" id="street" value="" name="street">
+                                    <input type="text" class="form-control" id="street" value="{{ $address_user->street }}" name="street">
                                 </div>
 
                                 <div class="col-3">
                                     <label for="neighborhood">Barrio</label>
-                                    <input type="text" class="form-control" id="neighborhood" value="" name="neighborhood">
+                                    <input type="text" class="form-control" id="neighborhood" value="{{ $address_user->neighborhood }}" name="neighborhood">
                                 </div>
                             </div>
                             
                             <div class="form-group row">
                                 <label for="city_residence" class="col-md-4 col-form-label text-md-right">Ciudad de residencia</label>
                                 <div class="col-md-6">
-                                    <input type="text" name="city_residence" id="city_residence" value="" class="form-control" required>     
+                                    <input type="text" name="city_residence" id="city_residence" value="{{ $address_user->city_residence }}" class="form-control" required>     
                                 </div> 
                             </div>
 
