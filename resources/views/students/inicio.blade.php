@@ -7,6 +7,6 @@
 @include('partials.navbar_student')
 <br>
 <hr>
-<img src="/img/u2.png" alt="">
+<img src="/img/u2.png" width="60%">
 <hr>
 @stop
