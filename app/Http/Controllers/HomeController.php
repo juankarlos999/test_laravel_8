@@ -32,9 +32,9 @@ class HomeController extends Controller
 
         if(is_null($user->address)){
             return view('auth.register');
-        }elseif($rol_user->roles() == 1){
+        }elseif($rol_user->roles->role_name == "Estudiante"){
             return view('students.inicio');
-        }elseif($rol_user->roles() == 2){
+        }elseif($rol_user->roles->role_name == "Administrador"){
             return view('administrator.inicio');
         }
     }
