@@ -8,6 +8,6 @@
 <h1>BIENVENIDO</h1>
 <br>
 <hr>
-<img src="/img/U.jpg" alt="">
+<img src="/img/u2.png" alt="" width="600" height="600">
 <hr>
 @stop
