@@ -78,9 +78,20 @@ class AddressController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
-        //
+        $address_user = Address::where('id', $request->id)->first();
+        
+        $address_user->street = $request->street;
+        $address_user->neighborhood = $request->neighborhood;
+        $address_user->city_residence = $request->city_residence;
+
+        $data_user->save();
+
+        $data_user = $address_user->user;
+
+        //return view('students.edit', compact('data_user', 'address_user'));
+        return $data_user;
     }
 
     /**
