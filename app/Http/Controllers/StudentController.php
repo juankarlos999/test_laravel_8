@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use App\Models\Role;
-use App\Models\Address;
 
 class StudentController extends Controller
 {
@@ -63,9 +62,10 @@ class StudentController extends Controller
         $data_user = User::find(Auth::user()->id);
         $address_user = $data_user->address();
 
-        if($data_user->roles()->where('user_id', 1)->get()){
+       /* if($data_user->roles()->where('user_id', 1)->get()){
             return view('students.edit', compact('data_user', 'address_user'));
-        }
+        }*/
+        return  $address_user;
     }
 
     /**
