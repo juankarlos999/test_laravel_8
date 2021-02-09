@@ -18,6 +18,7 @@ class ProgramUserTable extends Migration
             $table->foreign('user_id')->references('id')->on('users');
             $table->unsignedInteger('program_id');
             $table->foreign('program_id')->references('id')->on('programs');
+            $table->timestamps();
         });
     }
 
