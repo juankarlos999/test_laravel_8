@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use App\Models\Role;
+use App\Models\Address;
 
 class StudentController extends Controller
 {
