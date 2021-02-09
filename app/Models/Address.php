@@ -13,6 +13,6 @@ class Address extends Model
      * Funcion relacion uno a uno inversa entre Address y User
      */
     public function user(){
-        return $this->belongTo('App\Models\User');
+        return $this->belongsTo('App\Models\User');
     }
 }
