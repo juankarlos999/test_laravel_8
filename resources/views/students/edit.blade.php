@@ -128,6 +128,5 @@
         </div>
     </div>
 </div>
-<br>
 @include('partials.footer')
 @endsection
