@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use App\Models\Address;
+use App\Models\User;
 
 class AddressController extends Controller
 {
@@ -21,9 +24,18 @@ class AddressController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request, Address $new_address)
     {
-        //
+        $new_address->user_id = Auth::user()->id;
+        $new_address->street = $request->street;
+        $new_address->neighborhood = $request->neighborhood;
+        $new_address->city_residence = $request->city_residence;
+        $new_address->save();
+
+        $rol_user = User::find(Auth::user()->id);
+        $rol_user->roles()->attach($request->role_id);
+
+        return redirect()->route('student.edit');
     }
 
     /**

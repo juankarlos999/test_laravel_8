@@ -75,21 +75,17 @@ class StudentController extends Controller
      */
     public function update(Request $request)
     {
-        $data_student = User::where('id', $request->id)->first();
+        $data_user = User::where('id', $request->id)->first();
         
-        $data_student->name = $request->name;
-        $data_student->last_name = $request->last_name;
-        $data_student->email = $request->email;
-        $data_student->phoneNumber = $request->phoneNumber;
-        $data_student->address_id = $request->address_id;
-        $data_student->hometown = $request->hometown;
-        $data_student->nationality = $request->nationality;
+        $data_user->name = $request->name;
+        $data_user->last_name = $request->last_name;
+        $data_user->email = $request->email;
+        $data_user->phoneNumber = $request->phoneNumber;
+        $data_user->hometown = $request->hometown;
 
-        $data_student->save();
+        $data_user>save();
 
-
-
-        return view('students.edit', compact('data_student'));
+        return view('students.edit', compact('data_user'));
     }
 
     /**
