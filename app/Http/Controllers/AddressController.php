@@ -86,7 +86,7 @@ class AddressController extends Controller
         $address_user->neighborhood = $request->neighborhood;
         $address_user->city_residence = $request->city_residence;
 
-        $data_user->save();
+        $address_user->save();
 
         $data_user = $address_user->user;
 

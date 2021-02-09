@@ -23,9 +23,9 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 /* Students*/
 Route::get('/perfil-estudiante', [StudentController::class, 'edit'])->middleware('auth')->name('student.edit');
 
-Route::put('/actualizado-estudiante', [StudentController::class, 'update'])->middleware('auth')->name('student.update');
+Route::put('/actualizado-estudiante/{id}', [StudentController::class, 'update'])->middleware('auth')->name('student.update');
 
 /* Address */
 Route::post('/perfil-estudiante', [AddressController::class, 'create'])->name('address.create');
 
-Route::put('/estudiante-actualizado', [AddressController::class, 'update'])->name('address.update');
+Route::put('/estudiante-actualizado/{id}', [AddressController::class, 'update'])->middleware('auth')->name('address.update');
