@@ -15,6 +15,11 @@ class AddressTable extends Migration
     {
         Schema::create('addresses', function (Blueprint $table) {
             $table->id();
+            $table->unsignedInteger('user_id')->unique();
+            $table->foreign('user_id')
+            ->references('id')
+            ->on('users')
+            ->onDelete('cascade');
             $table->string('street');
             $table->string('neighborhood');
             $table->string('city_residence');
