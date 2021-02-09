@@ -23,6 +23,7 @@ class AddressTable extends Migration
             $table->string('street');
             $table->string('neighborhood');
             $table->string('city_residence');
+            $table->timestamps();
         });
     }
 
